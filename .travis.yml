@@ -7,7 +7,7 @@ before_install:
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
     - docker pull openjdk:11-jdk
 script:
-    - echo -e <?xml version="1.0" encoding="UTF-8"?>\n<settings
+    - echo -e '<?xml version="1.0" encoding="UTF-8"?>\n<settings
     xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0
     http://maven.apache.org/xsd/settings-1.1.0.xsd"
     xmlns="http://maven.apache.org/SETTINGS/1.1.0"\n
