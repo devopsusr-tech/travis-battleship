@@ -1,0 +1,26 @@
+1. Das ganze code ist in ein Package. Package Struktur ist nicht vorhanden.
+Vorschlag:
+- Unterteilen Frontend/Backend/Modules (Emir) (Done)
+
+2. Welche „Bad Smells“ sind Ihnen aufgefallen und konnten Sie lösen?
+- Gui und Geschaftslogik sind gemischt, die gehoren getrennt (Datenklasse, GUI Klassen) (Done)
+- Klassen die viel zu viel machen (Emir)
+- Hardgecoded pfäde ändern (Lulzim)
+- Methoden die sehr Komplex sind, die sollen granulärer gemacht (Emir)
+- Kein logging (Lulzim)
+- Sonarlint fehlers(Lulzim)
+- Kein Exception (Dennis)
+- Switch case ohne Default value (Denis).
+
+3. Wo könnten Patterns eingesetzt werden?
+- Factory pattern. Von input, elementen/klassen instanziert.
+- Strategy pattern. Unterschied zwischen elementen in UI. (Denis)
+
+4. Welche „Bad Smells“ sind Ihnen aufgefallen und konnten Sie (noch) nicht lösen?
+- Gibts sehr viele Magic Numbers, die wir nicht ändern können.
+- Gibts kein Business Logic, dafür können wir nicht testen.
+
+5. Wie könnte die Applikation verbessert werden?
+- Tests implementieren (Denis).
+- Readme file / Configuration möglichkeiten / Gitignore (Lulzim) pom file.
+- Intelligente reusable Algorithmus implementieren.
