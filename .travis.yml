@@ -11,7 +11,6 @@ addons:
         organization: "devopsusr-tech"
         token:
             secure: travis encrypt d255b64c2717a8f35ee7b76f92bf40c01671ee30 # encrypted value of your token
-
 script:
     - echo -e '<?xml version="1.0" encoding="UTF-8"?>\n<settings
     xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0
@@ -26,9 +25,9 @@ script:
     <enabled>true</enabled>\n </releases>\n <snapshots>\n
     <enabled>true</enabled>\n </snapshots>\n </repository>\n
     </repositories>\n </profile>\n </profiles>\n <activeProfiles>\n <activeProfile>nomvnsearch</activeProfile>\n </activeProfiles>\n</settings>' > $HOME/.m2/settings.xml
-- cat $HOME/.m2/settings.xml
-- mvn deploy
-- mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=devopsusr-tech_travis-battleship
+    - cat $HOME/.m2/settings.xml
+    - mvn deploy
+    - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=devopsusr-tech_travis-battleship
 
 after_success:
     - bash <(curl -s https://codecov.io/bash)
