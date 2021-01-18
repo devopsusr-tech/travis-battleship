@@ -6,13 +6,8 @@ services:
 before_install:
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
     - docker pull openjdk:11-jdk
-addons:
-    sonarcloud:
-        organization: "devopsusr-tech"
-        token:
-            secure: travis encrypt d255b64c2717a8f35ee7b76f92bf40c01671ee30 # encrypted value of your token
 script:
-    - echo -e '<?xml version="1.0" encoding="UTF-8"?>\n<settings
+    - echo -e <?xml version="1.0" encoding="UTF-8"?>\n<settings
     xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0
     http://maven.apache.org/xsd/settings-1.1.0.xsd"
     xmlns="http://maven.apache.org/SETTINGS/1.1.0"\n
@@ -29,6 +24,11 @@ script:
     - mvn deploy
     - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar -Dsonar.projectKey=devopsusr-tech_travis-battleship
 
+addons:
+    sonarcloud:
+        organization: "devopsusr-tech"
+        token:
+            secure: travis encrypt d255b64c2717a8f35ee7b76f92bf40c01671ee30 # encrypted value of your token
 after_success:
     - bash <(curl -s https://codecov.io/bash)
 
