@@ -25,8 +25,8 @@ Contributors:  Emir Cajlakovic, Dennis Addo, Lulzim Bulica
 
 
 
---------- cut here -------
+
 [![Build Status](https://travis-ci.com/devopsusr-tech/travis-battleship.svg?token=XtFwzcynvnyLtG7BsR4i&branch=master)](https://travis-ci.com/devopsusr-tech/travis-battleship)
---------- cut here -------
 
 
+[![dockerbuild](https://img.shields.io/docker/build/lulzimbulica/battleship)](https://img.shields.io/docker/build/lulzimbulica/battleship)
