@@ -25,5 +25,6 @@ Contributors:  Emir Cajlakovic, Dennis Addo, Lulzim Bulica
 
 
 --------- cut here -------
-[![Build Status](https://travisci.com/USERNAME/PROJECTNAME.svg)](https://travis-ci.com/github/devopsusr-tech/travis-battleship)
+[![Build Status](https://travisci.com/USERNAME/PROJECTNAME.svg)](https://travis-ci.com/github/cajlakem/battleships-master)
 --------- cut here -------
+
