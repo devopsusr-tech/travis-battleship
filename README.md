@@ -30,3 +30,5 @@ Contributors:  Emir Cajlakovic, Dennis Addo, Lulzim Bulica
 
 
 [![dockerbuild](https://img.shields.io/docker/build/lulzimbulica/battleship)](https://img.shields.io/docker/build/lulzimbulica/battleship)
+
+[![codecov](https://codecov.io/gh/devopsusr-tech/travis-battleship/branch/main/graph/badge.svg?token=5IZ74QSVE2)](https://codecov.io/gh/devopsusr-tech/travis-battleship)
