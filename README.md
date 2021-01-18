@@ -28,7 +28,8 @@ Contributors:  Emir Cajlakovic, Dennis Addo, Lulzim Bulica
 
 [![Build Status](https://travis-ci.com/devopsusr-tech/travis-battleship.svg?token=XtFwzcynvnyLtG7BsR4i&branch=master)](https://travis-ci.com/devopsusr-tech/travis-battleship)
 
-
 [![dockerbuild](https://img.shields.io/docker/build/lulzimbulica/battleship)](https://img.shields.io/docker/build/lulzimbulica/battleship)
 
 [![codecov](https://codecov.io/gh/devopsusr-tech/travis-battleship/branch/main/graph/badge.svg?token=5IZ74QSVE2)](https://codecov.io/gh/devopsusr-tech/travis-battleship)
+
+[![Quality Gate](https://sonarcloud.io/api/project_badges/measure?project=devopsusr-tech_travis-battleship)](https://sonarcloud.io/dashboard/index/com.cicd:devopsusr-tech_travis-battleship)
