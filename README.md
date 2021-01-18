@@ -10,7 +10,7 @@ This repo contains the project requirements of ASD Course Exercise-2.
 
 [![QualityGate](https://sonarcloud.io/api/project_badges/measure?project=devopsusr-tech_travis-battleship&metric=alert_status)](https://sonarcloud.io/dashboard?id=devopsusr-tech_travis-battleship)
 
-
+[![License: MIT](https://img.shields.io/badge/License-MITyellow.svg)](https://opensource.org/licenses/MIT)
 
 How to setup and Run the Game [IntelliJ IDE Guide]
 ------------------------------

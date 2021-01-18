@@ -63,6 +63,32 @@
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-</properties>
 
+    <docker.image.prefix>lulzimbulica</docker.image.prefix>
+    <maven.deploy.skip>true</maven.deploy.skip>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    <!-- GitHub OAuth token & server -->
+    <github.global.server>github</github.global.server>
+    <github.global.oauth2Token>7aca9c8606244902cc52201c98e030b52f30276b</github.global.oauth2Token>
+</properties>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://www.opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <email>lulzimbulica@gmail.com</email>
+            <name>Lulzim Bulica</name>
+            <url>https://github.com/devopsusr-tech/travis-battleship</url>
+            <id>devopsusr-tech</id>
+        </developer>
+    </developers>
+    <organization>
+        <name>Coderia</name>
+        <url>https://www.coderia.at/</url>
+    </organization>
 </project>
