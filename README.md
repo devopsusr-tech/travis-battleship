@@ -1,6 +1,5 @@
-Battleships
+Battleships (Group 6 Emir Cajlakovic, Dennis Addo, Lulzim Bulica)
 ----------
-This repo contains the project requirements of ASD Course Exercise-2.
 
 [![Build Status](https://travis-ci.com/devopsusr-tech/travis-battleship.svg?token=XtFwzcynvnyLtG7BsR4i&branch=master)](https://travis-ci.com/devopsusr-tech/travis-battleship)
 
@@ -11,6 +10,8 @@ This repo contains the project requirements of ASD Course Exercise-2.
 [![QualityGate](https://sonarcloud.io/api/project_badges/measure?project=devopsusr-tech_travis-battleship&metric=alert_status)](https://sonarcloud.io/dashboard?id=devopsusr-tech_travis-battleship)
 
 [![License: MIT](https://img.shields.io/badge/License-MITyellow.svg)](https://opensource.org/licenses/MIT)
+
+This repo contains the project requirements of ASD Course Exercise-2.
 
 How to setup and Run the Game [IntelliJ IDE Guide]
 ------------------------------
@@ -31,4 +32,3 @@ This guide explains how to run this project in IntelliJ IDEA.
 
 Now you can run the application and enjoy the application features :) 
 
-Contributors:  Emir Cajlakovic, Dennis Addo, Lulzim Bulica
