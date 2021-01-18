@@ -24,7 +24,9 @@ Now you can run the application and enjoy the application features :)
 Contributors:  Emir Cajlakovic, Dennis Addo, Lulzim Bulica
 
 
+
 --------- cut here -------
-[![Build Status](https://travisci.com/USERNAME/PROJECTNAME.svg)](https://travis-ci.com/github/cajlakem/battleships-master)
+[![Build Status](https://travisci.com/devopsusr-tech/travis-battleship.svg?branch=main)](https://travis-ci.com/devopsusr-tech/travis-battleship)
 --------- cut here -------
+
 
