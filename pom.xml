@@ -89,7 +89,6 @@
     <!-- GitHub OAuth token & server -->
     <github.global.server>github</github.global.server>
     <github.global.oauth2Token>7aca9c8606244902cc52201c98e030b52f30276b</github.global.oauth2Token>
-    <sonar.sources>src/fh/campus/asd/battleship</sonar.sources>
 </properties>
     <licenses>
         <license>
