@@ -12,7 +12,7 @@ before_install:
 addons:
     sonarcloud:
         organization: "devopsusr-tech"
-        token: $SONAR_TOKEN
+        token: a9e5860fb59f12f8ce4d474c2b99780a04af5b14
 script:
     - echo -e '<?xml version="1.0" encoding="UTF-8"?>\n <settings xsi:schemaLocation="http://maven.apache.org/SETTINGS/1.1.0 http://maven.apache.org/xsd/settings-1.1.0.xsd" xmlns="http://maven.apache.org/SETTINGS/1.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"> <mirrors> <mirror> <id>mvnsearch-unavailable</id> <name>mvnsearch-unavailable</name> <mirrorOf>mvnsearch</mirrorOf> <url>http://repo1.maven.org/maven2</url> </mirror> </mirrors> <profiles> <profile> <id>no-mvnsearch</id> <repositories> <repository> <id>mvnsearch</id> <url>http://www.mvnsearch.org/maven2</url> <releases> <enabled>true</enabled> </releases> <snapshots> <enabled>true</enabled> </snapshots> </repository> </repositories>\n </profile>\n </profiles>\n <activeProfiles>\n <activeProfile>nomvnsearch</activeProfile>\n </activeProfiles>\n</settings>' > $HOME/.m2/settings.xml
     - cat $HOME/.m2/settings.xml
