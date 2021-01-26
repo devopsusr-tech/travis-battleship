@@ -105,6 +105,8 @@
                 </plugin>
             </plugins>
         </pluginManagement>
+        <sourceDirectory>src</sourceDirectory>
+        <testSourceDirectory>src/tests</testSourceDirectory>
     </build>
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
