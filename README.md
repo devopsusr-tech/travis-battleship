@@ -3,7 +3,7 @@ Battleships (Group 6 Emir Cajlakovic, Dennis Addo, Lulzim Bulica)
 
 [![Build Status](https://travis-ci.com/devopsusr-tech/travis-battleship.svg?token=XtFwzcynvnyLtG7BsR4i&branch=main)](https://travis-ci.com/devopsusr-tech/travis-battleship)
 
-[![dockerbuild](https://img.shields.io/docker/cloud/build/lulzimbulica/battleship.svg)](https://img.shields.i/docker/cloud/build/lulzimbulica/battleship.svg)
+[![DockerBuild](https://img.shields.io/docker/cloud/build/lulzimbulica/battleship)](https://cloud.docker.com/u/lulzimbulica/repository/docker/lulzimbulica/battleship)
                 
 [![codecov](https://codecov.io/gh/devopsusr-tech/travis-battleship/branch/main/graph/badge.svg?token=5IZ74QSVE2)](https://codecov.io/gh/devopsusr-tech/travis-battleship)
 
