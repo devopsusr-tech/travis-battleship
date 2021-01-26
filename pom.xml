@@ -42,10 +42,10 @@
     </dependencies>
 
     <build>
+        <sourceDirectory>src/fh/campus/asd/battleship/forontend/main</sourceDirectory>
+        <testSourceDirectory>src/tests</testSourceDirectory>
         <pluginManagement>
             <plugins>
-
-
                 <plugin>
                     <groupId>org.jacoco</groupId>
                     <artifactId>jacoco-maven-plugin</artifactId>
@@ -105,8 +105,6 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <sourceDirectory>src</sourceDirectory>
-        <testSourceDirectory>src/tests</testSourceDirectory>
     </build>
 <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
