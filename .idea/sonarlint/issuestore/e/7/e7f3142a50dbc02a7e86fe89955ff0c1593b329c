@@ -1,0 +1,13 @@
+
+b	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ŞÑ‹
+h	java:S100X"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¯õÿÿÿÿÿ
+F
+java:S5960"+Remove this assertion from production code.(Óµışÿÿÿÿ
+T
+java:S1128
+"9Remove this unused import 'javafx.scene.image.ImageView'.(áÿ®Ãüÿÿÿÿ
+c	java:S1006"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Æ‚Â
+0
+java:S1220""Move this file to a named package.
+h	java:S100O"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®‰‚øûÿÿÿÿ
+c	java:S100$"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ÿú‡
