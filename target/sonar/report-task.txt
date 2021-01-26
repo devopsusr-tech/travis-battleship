@@ -1,0 +1,6 @@
+projectKey=devopsusr-tech_travis-battleship
+serverUrl=https://sonar.bytesource.info
+serverVersion=7.9.3.33349
+dashboardUrl=https://sonar.bytesource.info/dashboard?id=devopsusr-tech_travis-battleship
+ceTaskId=AXc9-I7L15tGAOQrsyMd
+ceTaskUrl=https://sonar.bytesource.info/api/ce/task?id=AXc9-I7L15tGAOQrsyMd

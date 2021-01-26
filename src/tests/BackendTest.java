@@ -16,7 +16,7 @@ public class BackendTest {
     Image img;
 
     @Test
-    void TestShipPart() {
+    public void TestShipPart() {
 
         ShipPart shipPart = new ShipPart(4,6);
 
@@ -33,7 +33,7 @@ public class BackendTest {
 
 
     @Test
-    void TestPlayer() {
+    public void TestPlayer() {
 
 
         player1.saveAttack(2,3);
@@ -51,7 +51,7 @@ public class BackendTest {
     }
 
     @Test
-    void TestShip() {
+    public void TestShip() {
 
         Direction direction1 = Direction.RIGHT;
         Ship ship1 = new Ship(3,4,10,direction1,4,6);
@@ -76,7 +76,7 @@ public class BackendTest {
     }
 
     @Test
-    void TestField() {
+    public void TestField() {
 
         Field field1 = player1.getArea();
 
@@ -85,7 +85,7 @@ public class BackendTest {
     }
 
     @Test
-    void TestImgShip() {
+    public void TestImgShip() {
         ImageShip imgship = new ImageShip(1,2,3,img);
         imgship.setDiffvectorx(1);
         imgship.setDiffvectory(1);
