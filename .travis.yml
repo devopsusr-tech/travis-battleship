@@ -9,5 +9,10 @@ before_install:
     - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
     - docker pull openjdk:11-jdk
 
+addons:
+    sonarcloud:
+        organization: "devopsusr-tech"
+        token:
+            secure: travis encrypt d255b64c2717a8f35ee7b76f92bf40c01671ee30 # encrypted value of your token
 after_success:
     - bash <(curl -s https://codecov.io/bash)
